@@ -1,0 +1,47 @@
+/* CSS used here will be applied after bootstrap.css */
+
+    /* START TREE MENU */
+
+    ul.treeMenu 
+    {
+        margin-left: -30px;
+        font-size: 11pt;
+    }
+
+    .treeMenu li {
+        
+        padding: 0 0 10px 10px;
+        color: #000000;
+        margin-left: -15px;
+        list-style-type: none;
+        cursor: pointer;
+    }
+
+    .treeMenu li ul 
+    {
+        display: none;
+        margin-top: 10px;
+        margin-left: -25px;
+    }
+   
+    
+    .treeMenu > li > ul > li
+    {
+        border-left: 1px dotted #cccccc;
+    }
+
+    .treeMenu li a {
+            color: #000000;
+            font-weight: normal;
+    }
+
+    .treeMenu li a.selectedDoc {
+            background-color: #e3e3e3;
+    }
+    
+    .treeMenu li span.pipe 
+    {
+        color: #cccccc;
+    }
+
+    /* END TREE MENU */
